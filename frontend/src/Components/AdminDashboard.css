@@ -1,0 +1,135 @@
+/* AdminDashboard.css */
+
+.dashboard-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f4;
+  }
+  
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .nav {
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav .btn {
+    background: #f4a261;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .nav .btn:hover {
+    background: #e76f51;
+  }
+  
+  .main-section {
+    padding: 30px 20px;
+  }
+  
+  section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background: #f4a261;
+    color: #fff;
+  }
+  
+  table td {
+    background: #fff;
+  }
+  
+  table tr:nth-child(even) td {
+    background: #f9f9f9;
+  }
+  
+  table .btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background: #4caf50;
+    color: #fff;
+  }
+  
+  .edit-btn:hover {
+    background: #45a049;
+  }
+  
+  .deactivate-btn {
+    background: #f44336;
+    color: #fff;
+  }
+  
+  .deactivate-btn:hover {
+    background: #e53935;
+  }
+  
+  .approve-btn {
+    background: #2196f3;
+    color: #fff;
+  }
+  
+  .approve-btn:hover {
+    background: #1976d2;
+  }
+  
+  .manage-btn {
+    background: #ff9800;
+    color: #fff;
+  }
+  
+  .manage-btn:hover {
+    background: #fb8c00;
+  }
+  

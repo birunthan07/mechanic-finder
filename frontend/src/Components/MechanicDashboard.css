@@ -1,0 +1,121 @@
+/* MechanicDashboard.css */
+
+.dashboard-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f4;
+  }
+  
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .nav {
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav .btn {
+    background: #f4a261;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .nav .btn:hover {
+    background: #e76f51;
+  }
+  
+  .main-section {
+    padding: 30px 20px;
+  }
+  
+  .appointments, .profile-overview, .service-requests {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .appointments h2, .profile-overview h2, .service-requests h2 {
+    margin-top: 0;
+  }
+  
+  .appointments ul, .service-requests ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .appointments li, .service-requests li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .appointments li:last-child, .service-requests li:last-child {
+    border-bottom: none;
+  }
+  
+  .appointment-actions button, .edit-profile button {
+    background: #f4a261;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .appointment-actions button:hover, .edit-profile button:hover {
+    background: #e76f51;
+  }
+  
+  .confirm-btn {
+    background: #4CAF50;
+  }
+  
+  .cancel-btn {
+    background: #f44336;
+  }
+  
+  .confirm-btn:hover {
+    background: #388E3C;
+  }
+  
+  .cancel-btn:hover {
+    background: #C62828;
+  }
+  
+  .availability {
+    margin-top: 20px;
+  }
+  
+  .request-details p {
+    margin: 0;
+  }
+  
